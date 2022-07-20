@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- constructor injection -->
+	<bean id="emp1" class="com.nt.beans.Employee1">
+		<constructor-arg name="eid" value="101" />
+		<constructor-arg name="ename" value="Nitesh" />
+		<constructor-arg name="billAmt" value="1000.0f" />
+	</bean>
+	<!-- setter injection -->
+	<bean id="stud1" class="com.nt.beans.Student">
+		<property name="name" value="Sandeep" />
+		<property name="collegeName" value="RITS" />
+		<property name="age" value="12" />
+		<!-- <property name="qlfy" value="B.E"/> -->
+	</bean>
+	<bean id="cust1" class="com.nt.beans.Customer">
+		<constructor-arg name="cno" value="101" />
+		<constructor-arg name="cname" value="Ganesh" />
+		<constructor-arg name="billAmt" value="5000.0f" />
+		<property name="caddrs" value="Hyd" />
+		<property name="mobNo" value="9430578319"></property>
+	</bean>
+
+
+</beans>
