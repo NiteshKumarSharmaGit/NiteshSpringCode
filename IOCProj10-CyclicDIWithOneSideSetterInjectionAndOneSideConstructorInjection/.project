@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>IOCProj01-SetterInjections</name>
+	<name>IOCProj10-CyclicDIWithOneSideSetterInjectionAndOneSideConstructorInjection</name>
 	<comment></comment>
 	<projects>
 	</projects>
