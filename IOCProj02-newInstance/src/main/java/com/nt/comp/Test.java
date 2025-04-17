@@ -5,7 +5,7 @@ public class Test {
 	private String b = "hello";
 
 	public Test() {
-		System.out.println("Test.Test()-0-param-constructor");
+		System.out.println("Test.Test()-0-param-constructorssss");
 	}
 	public Test(int a,String b) {
 		System.out.println("Test.Test()-2 param constructor");
